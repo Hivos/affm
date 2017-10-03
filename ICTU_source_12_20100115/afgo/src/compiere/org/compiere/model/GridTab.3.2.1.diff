@@ -1,0 +1,22 @@
+### Eclipse Workspace Patch 1.0
+#P afgo
+Index: src/model/org/compiere/model/GridTab.java
+===================================================================
+RCS file: /usr/local/cvsroot/afgo/src/model/org/compiere/model/GridTab.java,v
+retrieving revision 1.2
+diff -u -r1.2 GridTab.java
+--- src/model/org/compiere/model/GridTab.java	26 Jan 2009 12:07:44 -0000	1.2
++++ src/model/org/compiere/model/GridTab.java	26 Jan 2009 12:09:38 -0000
+@@ -2322,7 +2322,11 @@
+ 			return "";
+ 		//
+ 		if (isProcessed())		//	only active records
+-			return "";			//	"DocProcessed";
++		{
++			// ActFact: always execute callout (request 18918)
++			if (field.getAD_Column_ID() < 1000000)
++				return "";			//	"DocProcessed";
++		}
+ 
+ 		Object value = field.getValue();
+ 		Object oldValue = field.getOldValue();

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompiereApplicationModule Description="" DictionaryManagerVersion="v1.9.1, [licensed to: ActFact Projects B.V.]" DictionaryVersion="2008-04-07" FormatVersion="1" Name="ActFact Report &amp; Process" Value="AFRP">
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value=""/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001461"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2008-10-23 12:57:36.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="20"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="Y"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value="N"/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="IsSelectionOnly"/>
+<FieldLength AD_Reference_ID="11" Value="1"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value=""/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Selection Only"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="Y"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="1000143"/>
+<EntityType AD_Reference_ID="18" Value="AFRP"/>
+<TableUID AD_Reference_ID="11" Value=""/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="285"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2008-10-23 12:57:27.0"/>
+</AD_Column>
+<AD_Field>
+<AD_Field_ID AD_Reference_ID="13" Value="1000907"/>
+<IsSameLine AD_Reference_ID="20" Value="N"/>
+<SortNo AD_Reference_ID="22" Value="0"/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_Column_ID AD_Reference_ID="19" Value="1001461"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<IsReadOnly AD_Reference_ID="20" Value="N"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<IsFieldOnly AD_Reference_ID="20" Value="N"/>
+<Updated AD_Reference_ID="16" Value="2008-10-23 12:58:59.0"/>
+<DisplayLength AD_Reference_ID="11" Value="1"/>
+<IsHeading AD_Reference_ID="20" Value="N"/>
+<SeqNo AD_Reference_ID="11" Value="2500"/>
+<Name AD_Reference_ID="10" Value="Selection Only"/>
+<IsCentrallyMaintained AD_Reference_ID="20" Value="Y"/>
+<IsEncrypted AD_Reference_ID="20" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value=""/>
+<EntityType AD_Reference_ID="18" Value="AFRP"/>
+<IsMandatoryUI AD_Reference_ID="17" Value=""/>
+<ObscureType AD_Reference_ID="17" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<AD_Tab_ID AD_Reference_ID="19" Value="246"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<IsDisplayed AD_Reference_ID="20" Value="Y"/>
+<DisplayLogic AD_Reference_ID="14" Value=""/>
+<MRSeqNo AD_Reference_ID="11" Value="0"/>
+<IsDefaultFocus AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2008-10-23 12:58:41.0"/>
+<AD_FieldGroup_ID AD_Reference_ID="19" Value=""/>
+</AD_Field>
+<AD_Element>
+<AD_Reference_ID AD_Reference_ID="18" Value=""/>
+<PrintName AD_Reference_ID="10" Value="Selection Only"/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<AD_Element_ID AD_Reference_ID="13" Value="1000143"/>
+<Help AD_Reference_ID="14" Value=""/>
+<EntityType AD_Reference_ID="18" Value="AFRP"/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<PO_PrintName AD_Reference_ID="10" Value=""/>
+<PO_Description AD_Reference_ID="10" Value=""/>
+<PO_Help AD_Reference_ID="14" Value=""/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="IsSelectionOnly"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<FieldLength AD_Reference_ID="11" Value=""/>
+<Description AD_Reference_ID="10" Value=""/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2008-10-23 12:56:58.0"/>
+<Name AD_Reference_ID="10" Value="Selection Only"/>
+<Created AD_Reference_ID="16" Value="2008-10-23 12:56:58.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+<PO_Name AD_Reference_ID="10" Value=""/>
+</AD_Element>
+<AD_EntityType>
+<ModelValidationClasses AD_Reference_ID="10" Value=""/>
+<Summary AD_Reference_ID="10" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<BinaryData AD_Reference_ID="23" Value=""/>
+<LicenseText AD_Reference_ID="36" Value=""/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<CreateComponent AD_Reference_ID="28" Value="N"/>
+<RequireCompiereVersion AD_Reference_ID="10" Value=""/>
+<DocumentationText AD_Reference_ID="36" Value=""/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<AD_EntityType_ID AD_Reference_ID="13" Value="1000003"/>
+<Description AD_Reference_ID="10" Value=""/>
+<Version AD_Reference_ID="10" Value=""/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2008-10-23 12:55:00.0"/>
+<Name AD_Reference_ID="10" Value="ActFact Report &amp; Process"/>
+<IsRegistered AD_Reference_ID="20" Value="N"/>
+<RequireComponentVersion AD_Reference_ID="10" Value=""/>
+<EntityType AD_Reference_ID="10" Value="AFRP"/>
+<Record_ID AD_Reference_ID="13" Value=""/>
+<Classpath AD_Reference_ID="10" Value=""/>
+<ModelPackage AD_Reference_ID="10" Value=""/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<Processing AD_Reference_ID="28" Value="N"/>
+<Created AD_Reference_ID="16" Value="2008-10-23 12:55:00.0"/>
+</AD_EntityType>
+</CompiereApplicationModule>

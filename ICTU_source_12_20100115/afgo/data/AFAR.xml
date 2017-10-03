@@ -1,0 +1,3072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CompiereApplicationModule Value="AFAR" Name="ActFact Additional Report Columns" DictionaryVersion="2008-04-07" DictionaryManagerVersion="v1.6.0, [licensed to: ActFact Projects B.V.]" FormatVersion="1">
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001076"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:27.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_21"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_21"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000090"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:48:24.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001077"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:23.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_22"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_22"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000091"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:50:16.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001078"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:22.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_23"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_23"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000092"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:50:40.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001079"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:21.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_24"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_24"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000093"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:51:19.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001080"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:20.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_25"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_25"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000094"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:55:36.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001081"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:19.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_26"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_26"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000095"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:55:53.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001082"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:18.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_27"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_27"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000096"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:56:12.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001083"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:17.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_28"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_28"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000097"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:56:33.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001084"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:16.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_29"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_29"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000098"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:56:53.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001085"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:14.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_30"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_30"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000099"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:57:22.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001086"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:13.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_31"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_31"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000100"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:57:41.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001087"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:12.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_32"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_32"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000101"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:58:01.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001088"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:11.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_33"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_33"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000102"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:58:18.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001089"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:10.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_34"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_34"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000103"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:58:36.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001090"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:09.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_35"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_35"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000104"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:59:10.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001091"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:08.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_36"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_36"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000105"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:59:44.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001092"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:07.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_37"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_37"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000106"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 11:00:03.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001093"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:09:05.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_38"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_38"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000107"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 11:00:26.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001094"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:03:41.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_39"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_39"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000108"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 11:02:36.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001095"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 11:03:28.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_40"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_40"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000109"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 11:03:21.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001124"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:05:07.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_41"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_41"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000111"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:05:07.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001125"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:06:13.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_42"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_42"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000112"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:06:13.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001126"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:06:29.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_43"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_43"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000113"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:06:29.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001127"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:06:53.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_44"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_44"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000114"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:06:53.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001128"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:07:09.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_45"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_45"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000115"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:07:09.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001129"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:07:50.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_46"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_46"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000116"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:07:50.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001130"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:08:08.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_47"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_47"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000117"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:08:08.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001131"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:08:43.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_48"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_48"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000118"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:08:43.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001132"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:09:01.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_49"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_49"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000119"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:09:01.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001133"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:09:19.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_50"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_50"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000120"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:09:19.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001134"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:09:38.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_51"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_51"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000121"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:09:38.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001135"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:09:56.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_52"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_52"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000122"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:09:56.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001136"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:10:12.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_53"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_53"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000123"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:10:12.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001137"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:10:28.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_54"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_54"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000124"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:10:28.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001138"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:11:17.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_55"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_55"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000125"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:11:17.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001139"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:11:42.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_56"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_56"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000126"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:11:42.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001140"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:11:55.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_57"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_57"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000127"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:11:55.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001141"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:12:12.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_58"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_58"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000128"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:12:12.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001142"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:12:27.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_59"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_59"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000129"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:12:27.0"/>
+  </AD_Column>
+  <AD_Column>
+    <IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+    <VFormat AD_Reference_ID="10" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <ColumnSQL AD_Reference_ID="10" Value=""/>
+    <AD_Column_ID AD_Reference_ID="13" Value="1001143"/>
+    <IsKey AD_Reference_ID="20" Value="N"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <IsCallout AD_Reference_ID="20" Value="N"/>
+    <Version AD_Reference_ID="12" Value="1"/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:13:37.0"/>
+    <IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+    <AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+    <SummarySeqNo AD_Reference_ID="11" Value="0"/>
+    <Callout AD_Reference_ID="10" Value=""/>
+    <IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <DefaultValue AD_Reference_ID="10" Value=""/>
+    <MandatoryLogic AD_Reference_ID="10" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <ValueMin AD_Reference_ID="10" Value=""/>
+    <IsTranslated AD_Reference_ID="20" Value="N"/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_60"/>
+    <FieldLength AD_Reference_ID="11" Value="22"/>
+    <SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+    <AD_Process_ID AD_Reference_ID="19" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <ConstraintType AD_Reference_ID="17" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <ConstraintName AD_Reference_ID="10" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <IsUpdateable AD_Reference_ID="20" Value="N"/>
+    <ValueMax AD_Reference_ID="10" Value=""/>
+    <SeqNo AD_Reference_ID="11" Value="0"/>
+    <Name AD_Reference_ID="10" Value="Col_60"/>
+    <IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+    <IsEncrypted AD_Reference_ID="28" Value="N"/>
+    <IsMandatory AD_Reference_ID="20" Value="N"/>
+    <IsParent AD_Reference_ID="20" Value="N"/>
+    <AD_Element_ID AD_Reference_ID="30" Value="1000130"/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <TableUID AD_Reference_ID="11" Value=""/>
+    <IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+    <ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+    <AD_Table_ID AD_Reference_ID="19" Value="544"/>
+    <IsIdentifier AD_Reference_ID="20" Value="N"/>
+    <IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:13:32.0"/>
+  </AD_Column>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_21"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000090"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_21"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:39:16.0"/>
+    <Name AD_Reference_ID="10" Value="Col_21"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:39:16.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_22"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000091"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_22"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:39:30.0"/>
+    <Name AD_Reference_ID="10" Value="Col_22"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:39:30.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_23"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000092"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_23"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:39:46.0"/>
+    <Name AD_Reference_ID="10" Value="Col_23"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:39:46.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_24"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000093"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_24"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:40:04.0"/>
+    <Name AD_Reference_ID="10" Value="Col_24"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:40:04.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_25"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000094"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_25"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:41:15.0"/>
+    <Name AD_Reference_ID="10" Value="Col_25"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:41:15.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_26"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000095"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_26"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:41:33.0"/>
+    <Name AD_Reference_ID="10" Value="Col_26"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:41:33.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_27"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000096"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_27"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:41:52.0"/>
+    <Name AD_Reference_ID="10" Value="Col_27"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:41:52.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_28"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000097"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_28"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:42:32.0"/>
+    <Name AD_Reference_ID="10" Value="Col_28"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:42:32.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_29"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000098"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_29"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:42:53.0"/>
+    <Name AD_Reference_ID="10" Value="Col_29"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:42:53.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_30"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000099"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_30"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:43:15.0"/>
+    <Name AD_Reference_ID="10" Value="Col_30"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:43:15.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_31"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000100"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_31"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:43:29.0"/>
+    <Name AD_Reference_ID="10" Value="Col_31"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:43:29.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_32"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000101"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_32"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:43:45.0"/>
+    <Name AD_Reference_ID="10" Value="Col_32"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:43:45.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_33"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000102"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_33"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:43:55.0"/>
+    <Name AD_Reference_ID="10" Value="Col_33"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:43:55.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_34"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000103"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_34"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:44:07.0"/>
+    <Name AD_Reference_ID="10" Value="Col_34"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:44:07.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_35"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000104"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_35"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:44:22.0"/>
+    <Name AD_Reference_ID="10" Value="Col_35"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:44:22.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_36"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000105"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_36"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:44:39.0"/>
+    <Name AD_Reference_ID="10" Value="Col_36"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:44:39.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_37"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000106"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_37"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:46:08.0"/>
+    <Name AD_Reference_ID="10" Value="Col_37"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:46:08.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_38"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000107"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_38"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:46:22.0"/>
+    <Name AD_Reference_ID="10" Value="Col_38"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:46:22.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_39"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000108"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_39"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:46:46.0"/>
+    <Name AD_Reference_ID="10" Value="Col_39"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:46:46.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_40"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000109"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_40"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:47:05.0"/>
+    <Name AD_Reference_ID="10" Value="Col_40"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:47:05.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_41"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000111"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_41"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 11:57:41.0"/>
+    <Name AD_Reference_ID="10" Value="Col_41"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 11:57:41.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_42"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000112"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_42"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 11:57:56.0"/>
+    <Name AD_Reference_ID="10" Value="Col_42"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 11:57:56.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_43"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000113"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_43"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 11:58:56.0"/>
+    <Name AD_Reference_ID="10" Value="Col_43"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 11:58:56.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_44"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000114"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_44"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 11:59:10.0"/>
+    <Name AD_Reference_ID="10" Value="Col_44"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 11:59:10.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_45"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000115"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_45"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 11:59:21.0"/>
+    <Name AD_Reference_ID="10" Value="Col_45"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 11:59:21.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_46"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000116"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_46"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 11:59:32.0"/>
+    <Name AD_Reference_ID="10" Value="Col_46"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 11:59:32.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_47"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000117"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_47"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 11:59:42.0"/>
+    <Name AD_Reference_ID="10" Value="Col_47"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 11:59:42.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_48"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000118"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_48"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 11:59:54.0"/>
+    <Name AD_Reference_ID="10" Value="Col_48"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 11:59:54.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_49"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000119"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_49"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:00:14.0"/>
+    <Name AD_Reference_ID="10" Value="Col_49"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:00:14.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_50"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000120"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_50"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:00:40.0"/>
+    <Name AD_Reference_ID="10" Value="Col_50"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:00:40.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_51"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000121"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_51"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:00:53.0"/>
+    <Name AD_Reference_ID="10" Value="Col_51"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:00:53.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_52"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000122"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_52"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:01:08.0"/>
+    <Name AD_Reference_ID="10" Value="Col_52"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:01:08.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_53"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000123"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_53"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:01:21.0"/>
+    <Name AD_Reference_ID="10" Value="Col_53"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:01:21.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_54"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000124"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_54"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:01:32.0"/>
+    <Name AD_Reference_ID="10" Value="Col_54"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:01:32.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_55"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000125"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_55"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:01:42.0"/>
+    <Name AD_Reference_ID="10" Value="Col_55"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:01:42.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_56"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000126"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_56"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:03:08.0"/>
+    <Name AD_Reference_ID="10" Value="Col_56"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:03:08.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_57"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000127"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_57"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:03:19.0"/>
+    <Name AD_Reference_ID="10" Value="Col_57"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:03:19.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_58"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000128"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_58"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:03:31.0"/>
+    <Name AD_Reference_ID="10" Value="Col_58"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:03:31.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_59"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000129"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_59"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:04:17.0"/>
+    <Name AD_Reference_ID="10" Value="Col_59"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:04:17.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_Element>
+    <AD_Reference_ID AD_Reference_ID="18" Value=""/>
+    <PrintName AD_Reference_ID="10" Value="Col_60"/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <AD_Element_ID AD_Reference_ID="13" Value="1000130"/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <EntityType AD_Reference_ID="18" Value="AFAR"/>
+    <UpdatedBy AD_Reference_ID="18" Value="100"/>
+    <PO_PrintName AD_Reference_ID="10" Value=""/>
+    <PO_Description AD_Reference_ID="10" Value=""/>
+    <PO_Help AD_Reference_ID="14" Value=""/>
+    <AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+    <AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <ColumnName AD_Reference_ID="10" Value="Col_60"/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <FieldLength AD_Reference_ID="11" Value=""/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="100"/>
+    <Updated AD_Reference_ID="16" Value="2008-08-06 12:04:33.0"/>
+    <Name AD_Reference_ID="10" Value="Col_60"/>
+    <Created AD_Reference_ID="16" Value="2008-08-06 12:04:33.0"/>
+    <DBDataType AD_Reference_ID="17" Value=""/>
+    <PO_Name AD_Reference_ID="10" Value=""/>
+  </AD_Element>
+  <AD_EntityType>
+    <ModelValidationClasses AD_Reference_ID="10" Value=""/>
+    <Summary AD_Reference_ID="10" Value=""/>
+    <IsActive AD_Reference_ID="20" Value="Y"/>
+    <BinaryData AD_Reference_ID="23" Value=""/>
+    <LicenseText AD_Reference_ID="36" Value=""/>
+    <Help AD_Reference_ID="14" Value=""/>
+    <UpdatedBy AD_Reference_ID="18" Value="0"/>
+    <CreateComponent AD_Reference_ID="28" Value=""/>
+    <RequireCompiereVersion AD_Reference_ID="10" Value=""/>
+    <DocumentationText AD_Reference_ID="36" Value=""/>
+    <AD_Org_ID AD_Reference_ID="19" Value="0"/>
+    <AD_EntityType_ID AD_Reference_ID="13" Value="0"/>
+    <Description AD_Reference_ID="10" Value=""/>
+    <Version AD_Reference_ID="10" Value=""/>
+    <CreatedBy AD_Reference_ID="18" Value="0"/>
+    <Updated AD_Reference_ID="16" Value="2008-07-24 10:33:28.0"/>
+    <Name AD_Reference_ID="10" Value="ActFact Additional Report Columns"/>
+    <IsRegistered AD_Reference_ID="20" Value=""/>
+    <RequireComponentVersion AD_Reference_ID="10" Value=""/>
+    <EntityType AD_Reference_ID="10" Value="AFAR"/>
+    <Record_ID AD_Reference_ID="13" Value=""/>
+    <Classpath AD_Reference_ID="10" Value=""/>
+    <ModelPackage AD_Reference_ID="10" Value=""/>
+    <AD_Client_ID AD_Reference_ID="19" Value="0"/>
+    <Processing AD_Reference_ID="28" Value="N"/>
+    <Created AD_Reference_ID="16" Value="2008-07-24 10:33:28.0"/>
+  </AD_EntityType>
+</CompiereApplicationModule>

@@ -1,0 +1,22 @@
+/afgo_fact.sql/1.6/Mon Mar 10 12:31:16 2008//Tb1_2_0
+/afgo_menu.sql/1.2/Tue Jan  5 11:15:44 2010//Tb1_2_0
+/compiere_3_2_1.sql/1.5/Tue Jan  5 11:15:44 2010//Tb1_2_0
+/constraints.sql/1.5/Wed Jun 10 10:58:22 2009//Tb1_2_0
+/delete_constraints.sql/1.1/Wed May 21 12:41:03 2008//Tb1_2_0
+/deletefundschedule.sql/1.1/Fri Nov  9 12:59:24 2007//Tb1_2_0
+/drop_views.sql/1.1/Wed Sep 23 09:17:47 2009//Tb1_2_0
+/gwt.sql/1.1/Fri Feb 27 10:18:10 2009//Tb1_2_0
+/menu2.sql/1.1/Fri Feb 27 10:18:10 2009//Tb1_2_0
+/migrate_v0_2_0_v0_4_0.sql/1.1/Tue Jun  3 11:06:51 2008//Tb1_2_0
+/migrate_v0_9_0_v1_0_0.sql/1.2/Mon Jun 29 09:39:23 2009//Tb1_2_0
+/migrate_v1_0-v1_2_after.sql/1.7/Sun Jan  3 13:44:50 2010//Tb1_2_0
+/migrate_v1_0-v1_2_before.sql/1.10/Fri Nov 27 15:03:25 2009//Tb1_2_0
+/migrate_v1_0_0_after.sql/1.1/Mon Jun 29 09:39:23 2009//Tb1_2_0
+/org_allocation.sql/1.1/Thu Jan 10 14:38:14 2008//Tb1_2_0
+/org_val.sql/1.1/Thu Jan 10 14:38:14 2008//Tb1_2_0
+D/patch////
+/purchasecommitment_year.sql/1.1/Wed Mar 11 11:44:03 2009//Tb1_2_0
+/release_info.sql/1.1/Mon May 26 14:50:55 2008//Tb1_2_0
+/release_info_0_2_8.sql/1.1/Mon May 26 14:50:55 2008//Tb1_2_0
+/version_info.sql/1.1/Mon May 26 14:50:55 2008//Tb1_2_0
+/version_info_0_2_8.sql/1.1/Mon May 26 14:50:55 2008//Tb1_2_0

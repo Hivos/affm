@@ -1,0 +1,25 @@
+SET SERVEROUTPUT ON SIZE 50000;
+
+DECLARE
+
+	vSQL VARCHAR2(2000);
+	
+	CURSOR CUR_Views IS
+	SELECT t.TableName, t.AD_Table_ID, t.LoadSeq
+	FROM AD_Table t
+	WHERE t.IsView='Y'
+	AND t.EntityType='AFGO'
+	ORDER BY t.LoadSeq;
+BEGIN
+	FOR v IN CUR_Views LOOP
+	
+		vSQL := 'DROP VIEW ' || v.TableName;
+		DBMS_OUTPUT.PUT_LINE(vSQL);
+		
+		EXECUTE IMMEDIATE vSQL;
+		
+	END LOOP;
+END;
+/
+
+QUIT;

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Invoice
+	xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 catalog/UBL/cs-UBL-2.0/xsd/maindoc/UBL-Invoice-2.0.xsd"
+	xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+	xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+	xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+	xmlns:ccts="urn:un:unece:uncefact:documentation:2"
+	xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
+	xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2"
+	xmlns:stat="urn:oasis:names:specification:ubl:schema:xsd:DocumentStatusCode-1.0"
+	xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+	<cbc:ID>450080000169</cbc:ID>
+	<cbc:UUID>06E71D03-1671-4F89-ABCE-E1E3D4C4E5D4
+	</cbc:UUID>
+	<cbc:IssueDate>2009-03-10</cbc:IssueDate>
+	<cbc:Note>Streepjescode: IF005</cbc:Note>
+	<cbc:Note>Programma: 1000044</cbc:Note>
+	<cbc:Note>Verplichtingnummer: 1000223</cbc:Note>
+  	<cbc:TaxPointDate>2008-05-22</cbc:TaxPointDate>
+	<cbc:DocumentCurrencyCode />
+	<cac:OrderReference>
+		<cbc:ID>1000223</cbc:ID>
+		<cbc:SalesOrderID>450080000169</cbc:SalesOrderID>
+		<cac:DocumentReference>
+			<cbc:ID />
+			<cbc:DocumentTypeCode>Programma:1000044;
+				Verplichtingnr:1000223</cbc:DocumentTypeCode>
+		</cac:DocumentReference>
+	</cac:OrderReference>
+	<cac:BillingReference>
+		<cac:InvoiceDocumentReference>
+			<cbc:ID>450080000169</cbc:ID>
+			<cbc:IssueDate>2009-03-10</cbc:IssueDate>
+			<cac:Attachment>
+				<cac:ExternalReference>
+					<cbc:URI>http://dms/alfresco/download/direct?path=/Company%20Home/Compiere/facturen/2008/10/factuur_8005003.pdf</cbc:URI>
+				</cac:ExternalReference>
+			</cac:Attachment>
+		</cac:InvoiceDocumentReference>
+	</cac:BillingReference>
+	<cac:AccountingSupplierParty>
+		<cbc:CustomerAssignedAccountID>118</cbc:CustomerAssignedAccountID>
+		<cac:Party>
+			<cac:PartyName>
+				<cbc:Name></cbc:Name>
+			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:StreetName></cbc:StreetName>
+				<cbc:BuildingNumber></cbc:BuildingNumber>
+				<cac:AddressLine>
+					<cbc:Line></cbc:Line>
+				</cac:AddressLine>
+				<cbc:CityName></cbc:CityName>
+				<cbc:PostalZone></cbc:PostalZone>
+				<cac:Country />
+			</cac:PostalAddress>
+			<cac:PhysicalLocation>
+				<cac:Address>
+					<cbc:StreetName></cbc:StreetName>
+					<cbc:BuildingNumber></cbc:BuildingNumber>
+					<cbc:PostalZone></cbc:PostalZone>
+					<cbc:CityName></cbc:CityName>
+				</cac:Address>
+			</cac:PhysicalLocation>
+		</cac:Party>
+	</cac:AccountingSupplierParty>
+	<cac:AccountingCustomerParty>
+		<cbc:CustomerAssignedAccountID></cbc:CustomerAssignedAccountID>
+		<cbc:SupplierAssignedAccountID></cbc:SupplierAssignedAccountID>
+		<cac:Party>
+			<cac:PartyName>
+				<cbc:Name>Stichting ICTU</cbc:Name>
+			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:Postbox>84011</cbc:Postbox>
+				<cbc:StreetName>Postbus 84011</cbc:StreetName>
+				<cbc:CityName>Den Haag</cbc:CityName>
+				<cbc:PostalZone>2508 AA</cbc:PostalZone>
+				<cac:Country>
+					<cbc:IdentificationCode>NL</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PhysicalLocation>
+				<cac:Address>
+					<cbc:StreetName>Wilhelmina van Pruisenweg</cbc:StreetName>
+					<cbc:BuildingNumber>104</cbc:BuildingNumber>
+					<cbc:CityName>Den Haag</cbc:CityName>
+					<cbc:PostalZone>2595 AN</cbc:PostalZone>
+					<cac:Country>
+						<cbc:IdentificationCode>NL</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:PhysicalLocation>
+		</cac:Party>
+	</cac:AccountingCustomerParty>
+	<cac:PaymentMeans>
+		<cbc:PaymentMeansCode>42</cbc:PaymentMeansCode>
+		<cbc:PaymentDueDate>2009-06-21</cbc:PaymentDueDate>
+		<cac:PayeeFinancialAccount>
+			<cbc:ID>100 0000</cbc:ID>
+			<cbc:Name></cbc:Name>
+			<cbc:CityName></cbc:CityName>
+			<cbc:AccountTypeCode></cbc:AccountTypeCode>
+			<cbc:CurrencyCode>EUR</cbc:CurrencyCode>
+			<cac:FinancialInstitutionBranch>
+				<cbc:ID/>
+				<cbc:Name>ABN AMRO</cbc:Name>
+				<cbc:CityName></cbc:CityName>
+			</cac:FinancialInstitutionBranch>
+		</cac:PayeeFinancialAccount>
+	</cac:PaymentMeans>
+  <cac:PaymentTerms>
+    <cbc:Note>Betaaltermijn : 30 dagen na factuurdatum</cbc:Note>
+  </cac:PaymentTerms>
+	<cac:TaxTotal>
+    	<cbc:TaxAmount currencyID="EUR">11900</cbc:TaxAmount>
+    	<cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="EUR">10000</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="EUR">1900</cbc:TaxAmount>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+	<cac:LegalMonetaryTotal>
+		<cbc:LineExtensionAmount currencyID="EUR">10000</cbc:LineExtensionAmount>
+		<cbc:TaxExclusiveAmount currencyID="EUR">10000</cbc:TaxExclusiveAmount>
+		<cbc:PayableAmount currencyID="EUR">11900</cbc:PayableAmount>
+	</cac:LegalMonetaryTotal>
+	<cac:InvoiceLine>
+		<cbc:ID></cbc:ID>
+		<cbc:InvoicedQuantity>40</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="EUR">10000</cbc:LineExtensionAmount>
+		<cac:OrderLineReference>
+			<cbc:LineID>maart</cbc:LineID>
+		</cac:OrderLineReference>
+		<cac:Item>
+			<cbc:Description></cbc:Description>
+			<cbc:Name></cbc:Name>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="EUR">250</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+</Invoice>

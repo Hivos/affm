@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+
+<!--
+    (c) 2007-2008 ActFact B.V.
+-->
+
+<Schema name="afgo">
+
+	<!-- Program->Project Cluster->Project->Phase->Activity -->
+	<Dimension name="Allocation">
+		<Hierarchy hasAll="true" primaryKey="AFGO_ACTIVITY_ID" primaryKeyTable="AFGO_ACTIVITY" allMemberName="All Programs">
+			<Join leftKey="AFGO_PHASE_ID" rightAlias="AFGO_PHASE" rightKey="AFGO_PHASE_ID">
+				<Table name="AFGO_ACTIVITY"/>
+				<Join leftKey="AFGO_PROJECT_ID" rightAlias="AFGO_PROJECT" rightKey="AFGO_PROJECT_ID">
+					<Table name="AFGO_PHASE"/>
+					<Join leftKey="AFGO_PROJECTCLUSTER_ID" rightAlias="AFGO_PROJECTCLUSTER" rightKey="AFGO_PROJECTCLUSTER_ID">
+						<Table name="AFGO_PROJECT"/>
+						<Join leftKey="AFGO_PROGRAM_ID" rightAlias="AFGO_PROGRAM" rightKey="AFGO_PROGRAM_ID">
+							<Table name="AFGO_PROJECTCLUSTER"/>
+							<Table name="AFGO_PROGRAM"/>
+						</Join>
+					</Join>
+				</Join>
+			</Join>
+			<Level name="Program" table="AFGO_PROGRAM" column="NAME"  uniqueMembers="false"/> 
+			<Level name="Project Cluster" table="AFGO_PROJECTCLUSTER" column="NAME"  uniqueMembers="false"/> 
+			<Level name="Project" table="AFGO_PROJECT" column="NAME"  uniqueMembers="false"/> 
+			<Level name="Phase" table="AFGO_PHASE" column="NAME" uniqueMembers="false"/> 
+			<Level name="Activity" table="AFGO_ACTIVITY" column="NAME" uniqueMembers="false"/>
+		</Hierarchy>
+	</Dimension>
+	
+	<!-- Charge -->
+	<Dimension name="Cost Type">
+		<Hierarchy hasAll="true" primaryKey="C_CHARGE_ID" allMemberName="All Cost Types">
+			<Table name="C_CHARGE"/>
+			<Level name="Cost Type" column="NAME" uniqueMembers="true"/>
+		</Hierarchy>
+	</Dimension>
+	
+	 <!-- Product -->
+	<Dimension name="Product">
+		<Hierarchy hasAll="true" primaryKey="M_PRODUCT_ID" allMemberName="All Products">
+			<Table name="M_PRODUCT"/>
+			<Level name="Product" column="NAME" uniqueMembers="true"/>
+		</Hierarchy>
+	 </Dimension>
+	 
+	 <!-- Service Type -->
+	 <Dimension name="Service Type">
+		 <Hierarchy hasAll="true" primaryKey="AFGO_SERVICETYPE_ID" allMemberName="All Service Types">
+			 <Table name="AFGO_SERVICETYPE"/>
+			 <Level name="Service Type" column="NAME" uniqueMembers="true"/>
+		 </Hierarchy>
+	 </Dimension>
+	 
+	 <!-- Quarter->Month -->
+	 <Dimension name="Period">
+		 <Hierarchy hasAll="true" primaryKey="AFGO_MONTH_ID" primaryKeyTable="AFGO_MONTH" allMembername="All Periods">
+			<Join leftKey="AFGO_QUARTER_ID" rightAlias="AFGO_QUARTER" rightKey="AFGO_QUARTER_ID">
+				<Table name="AFGO_MONTH"/>
+				<Table name="AFGO_QUARTER"/>
+			</Join>
+			<Level name="Quarter" column="NAME" table="AFGO_QUARTER" uniqueMembers="false"/>
+			<Level name="Month" column="NAME" ordinalColumn="ENDDATE" table="AFGO_MONTH" uniqueMembers="false"/>
+		</Hierarchy>
+	 </Dimension>
+
+
+	<Cube name="Program">
+		<Table name="AFGO_FACT_V">
+		</Table>
+		
+		<!-- DocumentTable -->
+		<Dimension name="Document Table" foreignKey="AD_TABLE_ID">
+			<Hierarchy hasAll="true" primaryKey="AD_TABLE_ID" allMemberName="All Documents">
+				<Table name="AD_TABLE"/>
+				<Level name="Document Table" column="NAME" uniqueMembers="true"/>
+			</Hierarchy>
+		</Dimension>
+
+		<!-- DocumentNo -->
+		<Dimension name="Document No">
+			<Hierarchy hasAll="true">
+				<Level name="Document No" column="DOCUMENTNO" uniqueMembers="true"/>
+			</Hierarchy>
+		</Dimension>
+		
+		<!-- Period -->
+		<DimensionUsage name="Period" source="Period" foreignKey="AFGO_MONTH_ID"/>
+		
+		<!-- Allocation -->
+		<DimensionUsage name="Allocation" source="Allocation" foreignKey="AFGO_ACTIVITY_ID"/>
+		
+		<!-- Service Type -->
+		<DimensionUsage name="Service Type" source="Service Type" foreignKey="AFGO_SERVICETYPE_ID"/>
+		
+		<!-- Charge -->
+		<DimensionUsage name="Cost Type" source="Cost Type" foreignKey="C_CHARGE_ID"/>
+		
+		<!-- Product -->
+		<DimensionUsage name="Product" source="Product" foreignKey="M_PRODUCT_ID"/>
+		
+		 <!-- Funding -->
+		<Measure name="Funding" column="FUNDAMT" aggregator="sum" formatString="Standard"/>
+		
+		<!-- Invoiced Funding -->
+		<Measure name="Invoiced Funding" column="INVOICEDFUNDAMT" aggregator="sum" formatString="Standard"/>
+		
+		<!-- Invoiced Receivables -->
+		<Measure name="Invoiced Receivables" column="INVOICEDRECEIVABLESAMT" aggregator="sum" formatString="Standard"/>
+		
+		<!-- Budget -->
+		<Measure name="Budget" column="BUDGETAMT" aggregator="sum" formatString="Standard"/>
+		
+		<!-- Prognosis -->
+		<Measure name="Prognosis" column="PROGNOSISAMT" aggregator="sum" formatString="Standard"/>
+		
+		<!-- Cost Distribution -->
+		<Measure name="Cost Distribution" column="COSTDISTRIBUTIONAMT" aggregator="sum" formatString="Standard"/>
+		
+		<!-- Commitment -->
+		<Measure name="Commitment" column="COMMITMENTAMT" aggregator="sum" formatString="Standard"/>
+		
+		<!-- Formalized Commitment -->
+		<Measure name="Formalized Commitment" column="FORMALIZEDCOMMITMENTAMT" aggregator="sum" formatString="Standard"/>
+		
+		<!-- Internal Commitment -->
+		<Measure name="Internal Commitment" column="INTERNALCOMMITMENTAMT" aggregator="sum" formatString="Standard"/>
+		
+		<!-- Cost Allocation -->
+		<Measure name="Cost Allocation" column="COSTALLOCATIONAMT" aggregator="sum" formatString="Standard"/>
+		
+		<!-- Invoiced Commitment -->
+		<Measure name="Invoiced Commitment" column="INVOICEDCOMMITMENTAMT" aggregator="sum" formatString="Standard"/>
+		
+		<!-- Invoiced Payables-->
+		<Measure name="Invoiced Payables" column="INVOICEDPAYABLESAMT" aggregator="sum" formatString="Standard"/>
+		
+	</Cube>
+	
+</Schema>

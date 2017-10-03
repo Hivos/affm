@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<archive destination="" exploded="false" name="AFGOModel.jar" used="true">
+<folder excludes="**/X_*.class" includes="**/*.class" location="bin/model" name="model" prefix="" project="" projectLocation="bin/model" used="true"/>
+</archive>
+<archive destination="" exploded="false" name="AFGOServer.jar" used="true">
+<folder excludes="" includes="**/*.class" location="bin/server" name="server" prefix="" project="" projectLocation="bin/server" used="true"/>
+</archive>
+<archive destination="" exploded="false" name="afgo.war" used="true">
+<folder excludes="" includes="" location="dist/sites/olap" name="olap" prefix="" project="" projectLocation="dist/sites/olap" used="true"/>
+</archive>
+</configurations>

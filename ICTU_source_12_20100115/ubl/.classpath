@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="bin/model" path="src/model"/>
+	<classpathentry kind="src" output="bin/generated" path="src/generated"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/exta"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/compiere_321"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/afgo"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0"/>
+	<classpathentry kind="output" path="model"/>
+</classpath>

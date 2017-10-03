@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+
+<!--
+    (c) 2007-2008 ActFact B.V.
+-->
+
+<Schema name="Fact_Acct">
+	<Cube name="Fact_Acct_Balance">
+		<View alias="Fact_Acct_Balance_V">
+			<SQL>
+				SELECT fab.AMTACCTCR, fab.AMTACCTDR, (fab.AMTACCTCR-fab.AMTACCTDR) AS BALANCE,
+				fab.AD_ORG_ID, fab.ACCOUNT_ID, fab.M_PRODUCT_ID
+				FROM FACT_ACCT_BALANCE fab
+				INNER JOIN C_ACCTSCHEMA ac ON (ac.C_ACCTSCHEMA_ID=fab.C_ACCTSCHEMA_ID)
+				INNER JOIN AD_CLIENTINFO ci ON (ci.C_ACCTSCHEMA1_ID=ac.C_ACCTSCHEMA_ID)
+				WHERE ci.AD_CLIENT_ID=1000001
+			</SQL>
+		</View>
+		
+		<!-- Account -->
+		<Dimension name="Account" foreignKey="ACCOUNT_ID">
+			<Hierarchy hasAll="true" primaryKey="C_ELEMENTVALUE_ID" allMemberName="All Accounts">
+				<View alias="ACCCOUNT">
+					<SQL>
+						SELECT ev.C_ELEMENTVALUE_ID, tn.PARENT_ID, 
+						ev.VALUE, ev.NAME, ev.VALUE || ' - ' || ev.Name AS ACCOUNT
+						FROM C_ELEMENTVALUE ev
+						INNER JOIN C_ELEMENT e ON (e.C_ELEMENT_ID=ev.C_ELEMENT_ID)
+						INNER JOIN AD_TREENODE tn ON (tn.AD_TREE_ID=e.AD_TREE_ID AND tn.NODE_ID=ev.C_ELEMENTVALUE_ID)
+						INNER JOIN C_ACCTSCHEMA_ELEMENT ae ON (ae.C_ELEMENT_ID=e.C_ELEMENT_ID)
+						INNER JOIN C_ACCTSCHEMA ac ON (ac.C_ACCTSCHEMA_ID=ae.C_ACCTSCHEMA_ID)
+						INNER JOIN AD_CLIENTINFO ci ON (ci.C_ACCTSCHEMA1_ID=ac.C_ACCTSCHEMA_ID)
+						WHERE ci.AD_CLIENT_ID=1000001
+						ORDER BY ev.Value
+					</SQL>
+				</View>
+				<Level name="Account" type="Numeric" nameColumn="ACCOUNT" column="C_ELEMENTVALUE_ID" parentColumn="PARENT_ID" nullParentValue="0" uniqueMembers="true">
+					<Property name="Name" column="NAME"/>
+					<Property name="Value" column="VALUE"/>
+				</Level>
+			</Hierarchy>
+		</Dimension>
+		
+		<!-- BPartner -->
+		
+		<!-- Product -->
+		<Dimension name="Product" foreignKey="M_PRODUCT_ID">
+			<Hierarchy hasAll="true" primaryKey="M_PRODUCT_ID" primaryKeyTable="M_PRODUCT" allMemberName="All Products">
+				<Join leftKey="M_PRODUCT_CATEGORY_ID" rightKey="M_PRODUCT_CATEGORY_ID">
+					<Table name="M_PRODUCT"/>
+					<Table name="M_PRODUCT_CATEGORY"/>
+				</Join>
+				<Level name="Product Category" table="M_PRODUCT_CATEGORY" column="NAME" uniqueMember="true"/>
+				<Level name="Product" table="M_PRODUCT" column="NAME" uniqueMember="true"/>
+			</Hierarchy>
+		</Dimension>
+		
+		<!-- Balance -->
+		<Measure name="Balance" column="BALANCE" aggregator="sum" formatString="Standard"/>
+		
+	</Cube>
+</Schema>

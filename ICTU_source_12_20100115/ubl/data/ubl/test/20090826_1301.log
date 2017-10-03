@@ -1,0 +1,103 @@
+IF010.xml
+<!--
+mismatch: C_BP_BankAccount_ID[1000000] | C_BPartner_ID[118
+mismatch: AD_Client_ID[11] | C_BP_BankAccount_ID[1000000]
+-->
+
+IF008.xml
+<!--
+mismatch: C_BP_BankAccount_ID[1000000] | C_BPartner_ID[118
+No DocumentNo
+mismatch: AD_Client_ID[11] | C_BP_BankAccount_ID[1000000]
+-->
+
+IF004.xml
+<!--
+No C_BPartner_ID
+Unable to parse C_BPartner_ID: 1 18
+-->
+
+IF012.xml
+<!--
+Invalid: AFGO_Program_ID[1000044]
+-->
+
+IF005.xml
+<!--
+Unable to parse C_BP_BankAccount_ID: 100 0000
+-->
+
+IF007.xml
+<!--
+Unable to parse IssueDate: null
+-->
+
+IF016.xml
+<!--
+mismatch: C_BP_BankAccount_ID[1000001] | C_BPartner_ID[118
+mismatch: AD_Client_ID[11] | C_BP_BankAccount_ID[1000001]
+-->
+
+IF002.xml
+<!--
+mismatch: C_BP_BankAccount_ID[1000000] | C_BPartner_ID[118
+mismatch: AD_Client_ID[11] | C_BP_BankAccount_ID[1000000]
+-->
+
+IF009.xml
+<!--
+mismatch: C_BP_BankAccount_ID[1000000] | C_BPartner_ID[118
+mismatch: AD_Client_ID[11] | C_BP_BankAccount_ID[1000000]
+-->
+
+IF014.xml
+<!--
+mismatch: C_BP_BankAccount_ID[1000000] | C_BPartner_ID[118
+mismatch: AD_Client_ID[11] | C_BP_BankAccount_ID[1000000]
+-->
+
+IF000.xml
+<!--
+Unable to parse IssueDate: 2009-f31-31
+-->
+
+IF006.xml
+<!--
+mismatch: C_BP_BankAccount_ID[1000000] | C_BPartner_ID[118
+mismatch: AD_Client_ID[11] | C_BP_BankAccount_ID[1000000]
+-->
+
+IF013.xml
+<!--
+No GrandTotal
+-->
+
+IF011.xml
+<!--
+No C_BPartner_ID
+Unable to parse C_BPartner_ID: 
+-->
+
+IF017.xml
+<!--
+mismatch: C_BP_BankAccount_ID[1000000] | C_BPartner_ID[118
+mismatch: AD_Client_ID[11] | C_BP_BankAccount_ID[1000000]
+-->
+
+IF015.xml
+<!--
+mismatch: C_BP_BankAccount_ID[1000001] | C_BPartner_ID[120
+mismatch: AD_Client_ID[11] | C_BP_BankAccount_ID[1000001]
+-->
+
+IF003.xml
+<!--
+mismatch: C_BP_BankAccount_ID[1000000] | C_BPartner_ID[118
+mismatch: AD_Client_ID[11] | C_BP_BankAccount_ID[1000000]
+-->
+
+IF001.xml
+<!--
+mismatch: C_BP_BankAccount_ID[1000000] | C_BPartner_ID[118
+mismatch: AD_Client_ID[11] | C_BP_BankAccount_ID[1000000]
+-->

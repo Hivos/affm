@@ -1,0 +1,19 @@
+Index: WFActivity.java
+===================================================================
+RCS file: /usr/local/cvsroot/afgo/src/compiere/org/compiere/apps/wf/WFActivity.java,v
+retrieving revision 1.1
+diff -u -r1.1 WFActivity.java
+--- WFActivity.java	2 Jun 2009 08:58:21 -0000	1.1
++++ WFActivity.java	2 Jun 2009 12:26:58 -0000
+@@ -132,6 +132,11 @@
+ 	 */
+ 	private void dynInit(int WindowNo)
+ 	{
++		// ActFact
++		// sorting WF activites does not work 2124 
++		selTable.setSortEnabled(false);
++		// ActFact 
++		
+ 		loadActivities();
+ 		//	Forward
+ 		fForward = VLookup.createUser(WindowNo);

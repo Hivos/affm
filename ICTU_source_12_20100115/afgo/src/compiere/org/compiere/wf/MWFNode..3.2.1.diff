@@ -1,0 +1,22 @@
+Index: MWFNode.java
+===================================================================
+RCS file: /usr/local/cvsroot/afgo/src/model/org/compiere/wf/MWFNode.java,v
+retrieving revision 1.1
+diff -u -r1.1 MWFNode.java
+--- MWFNode.java	3 Mar 2009 14:59:17 -0000	1.1
++++ MWFNode.java	3 Mar 2009 15:06:00 -0000
+@@ -89,8 +89,13 @@
+ 			setYPosition (0);
+ 		}
+ 		//	Save to Cache
+-		if (get_ID() != 0)
++		if (get_ID() != 0)
++		{
++			// ActFact
++			loadNext();
++			loadTrl();
+ 			s_cache.put (Integer.valueOf(getAD_WF_Node_ID()), this);
++		}
+ 
+ 	}	//	MWFNode
+ 

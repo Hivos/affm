@@ -1,0 +1,103 @@
+Index: APanel.java
+===================================================================
+RCS file: /usr/local/cvsroot/exta/src/model/org/compiere/apps/APanel.java,v
+retrieving revision 1.2
+diff -u -r1.2 APanel.java
+--- APanel.java	22 Jan 2009 12:30:11 -0000	1.2
++++ APanel.java	22 Jan 2009 12:40:13 -0000
+@@ -36,6 +36,9 @@
+ import org.compiere.util.*;
+ import org.compiere.vos.*;
+ 
++import com.actfact.exta.apps.AttachmentExternal;
++import com.actfact.exta.model.MEXTAAttachmentExternal;
++
+ /**
+  *	Main Application Panel.
+  *  <pre>
+@@ -169,6 +172,10 @@
+ 							aNew, aCopy, aDelete, aIgnore, aPrint,
+ 							aRefresh, aAttachment, aChat, aMulti, aFind,
+ 							aWorkflow, aZoomAcross, aRequest, aUserDef, aArchive;
++	// ExtAt
++	private AppsAction		aAttachmentExternal;
++	// ExtAt
++	
+ 	/** Save Button			*/
+ 	public AppsAction		aSave;
+ 	/** Private Lock Button	*/
+@@ -228,6 +235,9 @@
+ 		AEnv.addMenuItem("InfoAsset", "Info", null, mView, this);
+ 		mView.addSeparator();
+ 		aAttachment = addAction("Attachment",	mView, 	KeyStroke.getKeyStroke(KeyEvent.VK_F7, 0),	true);		//	toggle
++		// ExtAt
++		aAttachmentExternal = addAction("AttachmentExternal", mView, KeyStroke.getKeyStroke(KeyEvent.VK_F7, KeyEvent.SHIFT_DOWN_MASK), true);
++		// ExtAt
+ 		aChat = addAction("Chat",				mView, 	KeyStroke.getKeyStroke(KeyEvent.VK_F8, 0),	true);		//	toggle
+ 		mView.addSeparator();
+ 		aMulti =	addAction("Multi",			mView, 	KeyStroke.getKeyStroke(KeyEvent.VK_F9, 0),	true);		//	toggle
+@@ -296,6 +306,9 @@
+ 		toolBar.add(aRefresh.getButton());      //  F5
+ 		toolBar.add(aFind.getButton());
+ 		toolBar.add(aAttachment.getButton());
++		// ExtAt
++		toolBar.add(aAttachmentExternal.getButton());
++		// ExtAt
+ 		toolBar.add(aChat.getButton());
+ 		toolBar.addSeparator();
+ 		toolBar.add(aMulti.getButton());		//	F9
+@@ -868,12 +881,19 @@
+ 		{
+ 			aAttachment.setEnabled(true);
+ 			aAttachment.setPressed(m_curTab.hasAttachment());
++			// ExtAt
++			aAttachmentExternal.setEnabled(true);
++			aAttachmentExternal.setPressed(MEXTAAttachmentExternal.hasAttachment(m_curTab.getAD_Table_ID(), m_curTab.getRecord_ID()));
++			// ExtAt;
+ 			aChat.setEnabled(true);
+ 			aChat.setPressed(m_curTab.hasChat());
+ 		}
+ 		else
+ 		{
+ 			aAttachment.setEnabled(false);
++			// ExtAt
++			aAttachmentExternal.setEnabled(false);
++			// ExtAt
+ 			aChat.setEnabled(false);
+ 		}
+ 		//	Lock Indicator
+@@ -1227,6 +1247,10 @@
+ 			//	View
+ 			else if (cmd.equals(aAttachment.getName()))
+ 				cmd_attachment();
++			// ExtAt
++			else if (cmd.equals(aAttachmentExternal.getName()))
++				cmd_attachmentExternal();
++			// ExtAt
+ 			else if (cmd.equals(aChat.getName()))
+ 				cmd_chat();
+ 			else if (cmd.equals(aMulti.getName()))
+@@ -1590,6 +1614,23 @@
+ 		m_curTab.loadAttachments();				//	reload
+ 		aAttachment.setPressed(m_curTab.hasAttachment());
+ 	}	//	attachment
++	
++	// ExtAt
++	private void cmd_attachmentExternal()
++	{
++		int record_ID = m_curTab.getRecord_ID();
++		log.info("Record_ID=" + record_ID);
++		if (record_ID == -1)
++		{
++			aAttachmentExternal.setEnabled(false);
++			return;
++		}
++		
++		new AttachmentExternal(Env.getFrame(this), m_ctx, m_curWindowNo, m_curTab.getAD_Table_ID(), record_ID, null);
++		
++		aAttachmentExternal.setPressed(MEXTAAttachmentExternal.hasAttachment(m_curTab.getAD_Table_ID(), m_curTab.getRecord_ID()));
++	}
++	// ExtAt
+ 
+ 	/**
+ 	 *	Chat

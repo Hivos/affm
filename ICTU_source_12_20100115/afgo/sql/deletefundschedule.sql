@@ -1,0 +1,20 @@
+SET SERVEROUTPUT ON SIZE 50000;
+DECLARE
+	v_AFGO_Fund_ID NUMBER := 1000001;
+BEGIN
+	DELETE 
+	FROM AFGO_FundScheduleLine
+	WHERE AFGO_FundSchedule_ID IN
+	(
+		SELECT AFGO_FundSchedule_ID
+		FROM AFGO_FundSchedule
+		WHERE AFGO_Fund_ID=v_AFGO_Fund_ID
+	);
+	
+	DELETE
+	FROM AFGO_FundSchedule
+	WHERE AFGO_Fund_ID=v_AFGO_Fund_ID;
+	
+	COMMIT;
+END;
+/

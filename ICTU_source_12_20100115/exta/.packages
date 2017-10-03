@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<packages>
+   <package name="exta.jar" type="jar" todir="/exta" exploded="false" inWorkspace="true">
+      <fileset dir="/exta/bin/model" includes="**/*.class" inWorkspace="true">
+         <properties></properties>
+      </fileset>
+      <fileset dir="/exta/src/model" includes="**/*.gif,**/*.png" excludes="" inWorkspace="true">
+         <properties></properties>
+      </fileset>
+      <properties>
+         <property name="org.jboss.ide.eclipse.as.core.packages.ModuleIDPropertyKey" value="17"></property>
+      </properties>
+   </package>
+   <properties></properties>
+</packages>

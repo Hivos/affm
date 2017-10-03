@@ -1,0 +1,6 @@
+bin
+CompiereICTU.properties
+CompiereAFGO.properties
+CompiereA*.properties
+Compiere*.properties
+AFGO*.jar

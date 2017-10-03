@@ -1,0 +1,3965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompiereApplicationModule Description="" DictionaryManagerVersion="v1.9.7, [licensed to: ActFact Projects B.V.]" DictionaryVersion="2008-12-01" FormatVersion="1" Name="ICTU Invoiceline Customization" Value="ICIC">
+<AD_Table>
+<SubTableType AD_Reference_ID="17" Value=""/>
+<DateColumn_ID AD_Reference_ID="18" Value=""/>
+<TableName AD_Reference_ID="10" Value="ICIC_Invoice_Line_v"/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<PO_Window_ID AD_Reference_ID="18" Value=""/>
+<Help AD_Reference_ID="14" Value="No Tax Identifier Included On Print Format"/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<IsChangeLog AD_Reference_ID="20" Value="N"/>
+<ImportView AD_Reference_ID="28" Value="N"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<ExportView AD_Reference_ID="28" Value="N"/>
+<Base_Table_ID AD_Reference_ID="18" Value=""/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value="ICTU Invoice Print View"/>
+<LoadSeq AD_Reference_ID="11" Value="0"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-14 15:20:42.0"/>
+<Name AD_Reference_ID="10" Value="ICIC_Invoice_Line_v"/>
+<ImportTable AD_Reference_ID="28" Value="N"/>
+<IsView AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<ReplicationType AD_Reference_ID="17" Value="L"/>
+<Referenced_Table_ID AD_Reference_ID="18" Value=""/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<IsHighVolume AD_Reference_ID="20" Value="N"/>
+<AD_Window_ID AD_Reference_ID="19" Value=""/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<IsSecurityEnabled AD_Reference_ID="20" Value="N"/>
+<IsDeleteable AD_Reference_ID="20" Value="N"/>
+<AD_Table_ID AD_Reference_ID="13" Value="1000080"/>
+<AccessLevel AD_Reference_ID="17" Value="3"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:19:21.0"/>
+</AD_Table>
+<AD_Table>
+<SubTableType AD_Reference_ID="17" Value=""/>
+<DateColumn_ID AD_Reference_ID="18" Value=""/>
+<TableName AD_Reference_ID="10" Value="ICIC_Invoice_Line_vt"/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<PO_Window_ID AD_Reference_ID="18" Value=""/>
+<Help AD_Reference_ID="14" Value="No Tax Identifier Included On Print Format"/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<IsChangeLog AD_Reference_ID="20" Value="N"/>
+<ImportView AD_Reference_ID="28" Value="N"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<ExportView AD_Reference_ID="28" Value="N"/>
+<Base_Table_ID AD_Reference_ID="18" Value=""/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value="ICTU Invoice Print View"/>
+<LoadSeq AD_Reference_ID="11" Value="0"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:29:48.0"/>
+<Name AD_Reference_ID="10" Value="ICIC_Invoice_Line_vt"/>
+<ImportTable AD_Reference_ID="28" Value="N"/>
+<IsView AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<ReplicationType AD_Reference_ID="17" Value="L"/>
+<Referenced_Table_ID AD_Reference_ID="18" Value=""/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<IsHighVolume AD_Reference_ID="20" Value="N"/>
+<AD_Window_ID AD_Reference_ID="19" Value=""/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<IsSecurityEnabled AD_Reference_ID="20" Value="N"/>
+<IsDeleteable AD_Reference_ID="20" Value="N"/>
+<AD_Table_ID AD_Reference_ID="13" Value="1000081"/>
+<AccessLevel AD_Reference_ID="17" Value="3"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:29:48.0"/>
+</AD_Table>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="A Client is a company or a legal entity. You cannot share data between Clients. Tenant is a synonym for Client."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001711"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:14:27.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="19"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value="129"/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="AD_Client_ID"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Identifies the Client/Tenant for this installation."/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Tenant"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="102"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:23:07.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Language identifies the language to use for display and formatting"/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001712"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:14:35.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="10"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="AD_Language"/>
+<FieldLength AD_Reference_ID="11" Value="5"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Language for this entity"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Language"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="109"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:23:39.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="An organization is a unit of your Tenant or legal entity - examples are store, department. You can share data between organizations."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001713"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="0"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:14:44.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="19"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value="104"/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="AD_Org_ID"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Organizational entity within Tenant"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Organization"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="113"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:24:10.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="Activities indicate tasks that are performed and used to utilize Activity based Costing"/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001714"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:14:49.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="19"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_Activity_ID"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Business Activity"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Activity"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="1005"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:25:04.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Campaign defines a unique marketing program.  Projects can be associated with a pre defined Marketing Campaign.  You can then report based on a specific Campaign."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001715"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:14:54.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="19"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_Campaign_ID"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Marketing Campaign"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Campaign"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="550"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:25:31.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Invoice Line uniquely identifies a single line of an Invoice."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001716"/>
+<IsKey AD_Reference_ID="20" Value="Y"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:14:59.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="13"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_InvoiceLine_ID"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Invoice Detail Line"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Invoice Line"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="Y"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="1076"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:25:58.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Invoice Document."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001717"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:15:08.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="30"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_Invoice_ID"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Invoice Identifier"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Invoice"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="1008"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:26:22.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value=""/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001718"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:15:13.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="19"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_ProjectPhase_ID"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Phase of a Project"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Project Phase"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="2073"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:26:44.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="A Project Task in a Project Phase represents the actual work."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001719"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:15:18.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="19"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_ProjectTask_ID"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Actual Project Task in a Phase"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Project Task"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="2074"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:27:16.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="A Project allows you to track and control internal or external activities."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001720"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="0"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:15:23.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="19"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_Project_ID"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Financial Project"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Project"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="208"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:27:36.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Tax indicates the type of tax used in document line."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001721"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:21:16.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="19"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_Tax_ID"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Tax identifier"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Tax"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="213"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:27:57.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Created On field indicates the date that this record was created."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001722"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:15:35.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="16"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Created"/>
+<FieldLength AD_Reference_ID="11" Value="7"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Date this record was created"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Created On"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="245"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:28:31.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Created By field indicates the user who created this record."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001723"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:15:44.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="18"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value="110"/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="CreatedBy"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="User who created this record"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Created By"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="246"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:29:40.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="A description is limited to 255 characters."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001724"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:15:49.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="10"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Description"/>
+<FieldLength AD_Reference_ID="11" Value="255"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Optional short description of the record"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Description"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="275"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:30:52.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Discount indicates the discount applied or taken as a percentage."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001725"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:15:53.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="11"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Discount"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Discount in percent"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Discount %"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="280"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:31:22.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Document Note is used for recording any additional information regarding this product."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001726"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:16:01.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="10"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="DocumentNote"/>
+<FieldLength AD_Reference_ID="11" Value="2000"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Additional information for a Document"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Document Note"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="868"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:31:50.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="Date when the normal guarantee or availability expires"/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001727"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:16:11.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="15"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="GuaranteeDate"/>
+<FieldLength AD_Reference_ID="11" Value="7"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Date when guarantee expires"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Guarantee Date"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="1936"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:32:09.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="URL of image; the image is not stored in the database, but retrieved at runtime. The image can be a gif, jpeg or png."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001728"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:16:17.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="40"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="ImageURL"/>
+<FieldLength AD_Reference_ID="11" Value="120"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="URL of image"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Image URL"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="1720"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:32:30.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="There are two methods of making records unavailable in the system: One is to delete the record, the other is to de-activate the record. A de-activated record is not available for selection, but available for reports. There are two reasons for de-activating and not deleting records: (1) The system requires the record for audit purposes. (2) The record is referenced by other records. E.g., you cannot delete a Business Partner, if there are invoices for this partner record existing. You de-activate the Business Partner and prevent that this record is used for future entries."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001729"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:18:13.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="20"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="IsActive"/>
+<FieldLength AD_Reference_ID="11" Value="1"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="The record is active in the system"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Active"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="348"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:32:48.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="Indicates the unique line for a document.  It will also control the display order of the lines within a document."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001730"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:21:03.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="11"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Line"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Unique line for this document"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Line No"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="439"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:33:14.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="Indicates the extended line amount based on the quantity and the actual price.  Any additional charges or freight are not included.  The Amount may or may not include tax.  If the price list is inclusive tax, the line amount is the same as the line total."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001731"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:18:23.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="LineNetAmt"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Line Extended Amount (Quantity * Actual Price) without Freight and Charges"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Line Amount"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="441"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:33:32.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="Total line amount"/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001732"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:18:27.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="LineTotalAmt"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Total line amount incl. Tax"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Line Total"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="2215"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:33:49.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Lot Number indicates the specific lot that a product was part of."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001733"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="0"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:18:35.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="10"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Lot"/>
+<FieldLength AD_Reference_ID="11" Value="40"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Lot number (alphanumeric)"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Lot No"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="446"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:34:10.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="Identifies the values of the actual Product Attribute Instances.  The product level attributes are defined on Product level."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001734"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:18:39.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="35"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="M_AttributeSetInstance_ID"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Product Attribute Set Instance"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Attribute Set Instance"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="2019"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:34:41.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="Define Product Attribute Sets to add additional attributes and values to the product. You need to define an Attribute Set if you want to enable Serial and Lot Number tracking."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001735"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:19:01.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="19"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="M_AttributeSet_ID"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Product Attribute Set"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Attribute Set"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="2017"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:35:02.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The individual Lot of a Product"/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001736"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="0"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:19:08.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="30"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="M_Lot_ID"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Product Lot Definition"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Lot"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="2021"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:35:25.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="Identifies an item which is either purchased or sold in this organization."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001737"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:19:14.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="30"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="M_Product_ID"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Product, Service, Item"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Product"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="454"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:35:50.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The name of an entity (record) is used as a default search option in addition to the search key. The name is up to 60 characters in length."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001738"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:19:19.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="10"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Name"/>
+<FieldLength AD_Reference_ID="11" Value="60"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Alphanumeric identifier of the entity"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Name"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="469"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:36:12.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Actual or Unit Price indicates the Price for a product in source currency."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001739"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="0"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:19:23.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="37"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="PriceActual"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Actual Price"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Unit Price"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="519"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:36:30.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The price entered is converted to the actual price based on the UoM conversion"/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001740"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:19:27.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="37"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="PriceEntered"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Price Entered - the price based on the selected/base UoM"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Price"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="2588"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:36:58.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="Price List converted to entered UOM"/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001741"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:19:31.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="37"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="PriceEnteredList"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Entered List Price"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="List Price"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="2590"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:37:15.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The List Price is the official List Price in the document currency."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001742"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:19:35.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="37"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="PriceList"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="List Price"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="List Price"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="520"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:37:50.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="Description of the product"/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001743"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:19:39.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="10"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="ProductDescription"/>
+<FieldLength AD_Reference_ID="11" Value="255"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Product Description"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Product Description"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="2651"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:38:04.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value=""/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001744"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:19:44.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="10"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="ProductValue"/>
+<FieldLength AD_Reference_ID="11" Value="40"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Key of the Product"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Product Key"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="1675"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 15:38:39.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Quantity Entered is converted to base product UoM quantity"/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001745"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:19:49.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="29"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="QtyEntered"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="The Quantity Entered is based on the selected UoM"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Quantity"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="2589"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 16:14:26.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Invoiced Quantity indicates the quantity of a product that has been invoiced."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001746"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:19:56.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="29"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="QtyInvoiced"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Invoiced Quantity"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Quantity Invoiced"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="529"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 16:15:01.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value=""/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001747"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:20:00.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="10"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="ResourceDescription"/>
+<FieldLength AD_Reference_ID="11" Value="255"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Resource Allocation Description"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Resource Description"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="1849"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 16:21:05.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The SKU indicates a user defined stock keeping unit.  It may be used for an additional bar code symbols or your own schema."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001748"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:20:04.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="10"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="SKU"/>
+<FieldLength AD_Reference_ID="11" Value="30"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Stock Keeping Unit"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="SKU"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="549"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 16:26:04.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Serial Number identifies a tracked, warranted product.  It can only be used when the quantity is 1."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001749"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:20:08.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="10"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="SerNo"/>
+<FieldLength AD_Reference_ID="11" Value="40"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Product Serial Number"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Serial No"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="568"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 16:26:34.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Tax Amount displays the total tax amount for a document."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001750"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:20:13.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="12"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="TaxAmt"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Tax Amount for a document"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Tax Amount"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="1133"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 16:26:57.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Tax Indicator identifies the short name that will print on documents referencing this tax."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001751"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:20:17.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="10"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="TaxIndicator"/>
+<FieldLength AD_Reference_ID="11" Value="10"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Short form for Tax to be printed on documents"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Tax Indicator"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="1135"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 16:27:30.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Symbol identifies the Symbol to be displayed and printed for a Unit of Measure"/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001752"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:20:23.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="10"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="UOMSymbol"/>
+<FieldLength AD_Reference_ID="11" Value="10"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Symbol for a Unit of Measure"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Symbol"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="602"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 16:27:53.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="Use this field to enter the bar code for the product in any of the bar code symbol definitions (Codabar, Code 25, Code 39, Code 93, Code 128, UPC (A), UPC (E), EAN-13, EAN-8, ITF, ITF-14, ISBN, ISSN, JAN-13, JAN-8, POSTNET and FIM, MSI/Plessey, and Pharmacode)"/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001753"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:20:27.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="10"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="UPC"/>
+<FieldLength AD_Reference_ID="11" Value="30"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Bar Code (Universal Product Code or its superset European Article Number)"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="UPC/EAN"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="603"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 16:28:15.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Updated field indicates the date that this record was updated."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001754"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-14 16:43:35.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="16"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value=""/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Updated"/>
+<FieldLength AD_Reference_ID="11" Value="7"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="Date this record was updated"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Updated"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="607"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 16:28:50.0"/>
+</AD_Column>
+<AD_Column>
+<IsSummaryColumn AD_Reference_ID="20" Value="N"/>
+<VFormat AD_Reference_ID="10" Value=""/>
+<Help AD_Reference_ID="14" Value="The Updated By field indicates the user who updated this record."/>
+<ColumnSQL AD_Reference_ID="10" Value=""/>
+<AD_Column_ID AD_Reference_ID="13" Value="1001755"/>
+<IsKey AD_Reference_ID="20" Value="N"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<IsCallout AD_Reference_ID="20" Value="N"/>
+<Version AD_Reference_ID="12" Value="1"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-14 16:39:15.0"/>
+<IsSyncDatabase AD_Reference_ID="28" Value="N"/>
+<AD_Reference_ID AD_Reference_ID="18" Value="18"/>
+<SummarySeqNo AD_Reference_ID="11" Value="0"/>
+<Callout AD_Reference_ID="10" Value=""/>
+<IsMandatoryUI AD_Reference_ID="20" Value="N"/>
+<AD_Val_Rule_ID AD_Reference_ID="19" Value=""/>
+<DefaultValue AD_Reference_ID="10" Value=""/>
+<MandatoryLogic AD_Reference_ID="10" Value=""/>
+<AD_Reference_Value_ID AD_Reference_ID="18" Value="110"/>
+<ValueMin AD_Reference_ID="10" Value=""/>
+<IsTranslated AD_Reference_ID="20" Value="N"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="UpdatedBy"/>
+<FieldLength AD_Reference_ID="11" Value="22"/>
+<SelectionSeqNo AD_Reference_ID="11" Value="0"/>
+<AD_Process_ID AD_Reference_ID="19" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<ConstraintType AD_Reference_ID="17" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<ConstraintName AD_Reference_ID="10" Value=""/>
+<Description AD_Reference_ID="10" Value="User who updated this records"/>
+<IsUpdateable AD_Reference_ID="20" Value="N"/>
+<ValueMax AD_Reference_ID="10" Value=""/>
+<SeqNo AD_Reference_ID="11" Value="0"/>
+<Name AD_Reference_ID="10" Value="Updated By"/>
+<IsSelectionColumn AD_Reference_ID="20" Value="N"/>
+<IsEncrypted AD_Reference_ID="28" Value="N"/>
+<IsMandatory AD_Reference_ID="20" Value="N"/>
+<IsParent AD_Reference_ID="20" Value="N"/>
+<AD_Element_ID AD_Reference_ID="30" Value="608"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<TableUID AD_Reference_ID="11" Value="0"/>
+<IsRecursiveFK AD_Reference_ID="20" Value="N"/>
+<ReadOnlyLogic AD_Reference_ID="10" Value=""/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<IsIdentifier AD_Reference_ID="20" Value="N"/>
+<IsAlwaysUpdateable AD_Reference_ID="20" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-14 16:29:24.0"/>
+</AD_Column>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002039"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.AD_Client_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="AD_Client_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:48:39.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:39:33.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002040"/>
+<ColumnSQL AD_Reference_ID="14" Value="CAST('en_US' AS VARCHAR(5))"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="AD_Language"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:48:16.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:41:08.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002041"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.AD_Org_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="AD_Org_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:52:21.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:41:14.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002042"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.C_Activity_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_Activity_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:53:49.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:41:20.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002043"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.C_Campaign_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_Campaign_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:53:54.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:41:26.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002044"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.C_InvoiceLine_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_InvoiceLine_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:53:59.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:41:32.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002045"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.C_Invoice_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_Invoice_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:54:04.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:41:37.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002046"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.C_ProjectPhase_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_ProjectPhase_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:54:08.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:41:43.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002047"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.C_ProjectTask_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_ProjectTask_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:54:16.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:41:48.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002048"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.C_Project_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_Project_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:06:50.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:41:53.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002049"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.C_Tax_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_Tax_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 14:26:33.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:41:59.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002050"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.Created"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Created"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:06:58.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:42:05.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002051"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.CreatedBy"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="CreatedBy"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:07:02.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:42:10.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002053"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.Discount"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Discount"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:07:09.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:42:21.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002054"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.DocumentNote"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="DocumentNote"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:07:13.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:42:26.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002055"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.GuaranteeDate"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="GuaranteeDate"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:07:17.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:42:32.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002056"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.ImageURL"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="ImageURL"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:07:22.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:42:37.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002057"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.IsActive"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="IsActive"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:07:27.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:42:42.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002058"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.Line"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Line"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:07:33.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:42:48.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002060"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.LineTotalAmt"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="LineTotalAmt"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:07:42.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:43:01.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002061"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.Lot"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Lot"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:07:50.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:43:07.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002062"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.M_AttributeSetInstance_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="M_AttributeSetInstance_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:07:55.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:43:17.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002063"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.M_AttributeSet_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="M_AttributeSet_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:08:01.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:43:23.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002064"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.M_Lot_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="M_Lot_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:08:06.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:43:28.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002065"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.M_Product_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="M_Product_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:08:12.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:43:33.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002066"/>
+<ColumnSQL AD_Reference_ID="14" Value="CASE WHEN ilv.C_InvoiceLine_ID IS NULL THEN NULL ELSE ilv.Name END"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Name"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 14:30:17.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:43:38.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002067"/>
+<ColumnSQL AD_Reference_ID="14" Value="CASE WHEN ilv.C_InvoiceLine_ID IS NULL THEN NULL ELSE ilv.PriceActual END"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="PriceActual"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 12:52:32.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:43:44.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002068"/>
+<ColumnSQL AD_Reference_ID="14" Value="CASE WHEN ilv.C_InvoiceLine_ID IS NULL THEN NULL ELSE ilv.PriceEntered END"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="PriceEntered"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 12:52:40.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:43:48.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002069"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.PriceEnteredList"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="PriceEnteredList"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:08:30.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:43:53.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002070"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.PriceList"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="PriceList"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:08:34.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:43:58.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002071"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.ProductDescription"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="ProductDescription"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:08:39.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:44:05.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002072"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.ProductValue"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="ProductValue"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:08:43.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:44:11.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002073"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.QtyEntered"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="QtyEntered"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:08:48.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:44:16.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002074"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.QtyInvoiced"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="QtyInvoiced"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:08:53.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:44:21.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002075"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.ResourceDescription"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="ResourceDescription"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:15:06.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:44:27.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002076"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.SKU"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="SKU"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:15:11.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:44:33.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002077"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.SerNo"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="SerNo"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:15:24.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:44:38.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002078"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.TaxAmt"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="TaxAmt"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:15:29.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:44:45.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002079"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.TaxIndicator"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="TaxIndicator"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 14:25:51.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:44:50.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002080"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.UOMSymbol"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="UOMSymbol"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:15:38.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:44:55.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002081"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.UPC"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="UPC"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:15:43.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:45:03.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002082"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.Updated"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Updated"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:15:58.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:45:08.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002083"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.UpdatedBy"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="UpdatedBy"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:16:08.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:45:16.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002084"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.AD_Client_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="AD_Client_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:47:59.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:23:10.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002085"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.AD_Language"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="AD_Language"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:47:55.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:23:22.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002086"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.AD_Org_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="AD_Org_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:47:51.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:24:44.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002087"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.C_Activity_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_Activity_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:47:46.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:24:59.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002088"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.C_Campaign_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_Campaign_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:47:42.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:25:10.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002089"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.C_InvoiceLine_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_InvoiceLine_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:47:37.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:25:21.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002090"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.C_Invoice_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_Invoice_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:47:32.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:25:31.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002091"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.C_ProjectPhase_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_ProjectPhase_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:47:29.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:25:43.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002092"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.C_ProjectTask_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_ProjectTask_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:47:25.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:25:51.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002093"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.C_Project_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_Project_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:47:19.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:25:59.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002094"/>
+<ColumnSQL AD_Reference_ID="14" Value="NULL"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="C_Tax_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 13:21:38.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:26:08.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002095"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.Created"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Created"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:47:12.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:26:16.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002096"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.CreatedBy"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="CreatedBy"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:47:08.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:26:30.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002097"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.Description"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Description"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:47:03.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:26:43.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002098"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.Discount"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Discount"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:47:00.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:26:53.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002099"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.DocumentNote"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="DocumentNote"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:46:56.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:27:04.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002100"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.GuaranteeDate"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="GuaranteeDate"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:46:53.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:27:24.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002101"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.ImageURL"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="ImageURL"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:44:40.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:27:35.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002102"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.IsActive"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="IsActive"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:44:36.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:27:45.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002103"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.Line"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Line"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:44:32.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:28:00.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002104"/>
+<ColumnSQL AD_Reference_ID="14" Value="CASE WHEN ilv.C_InvoiceLine_ID IS NULL THEN NULL ELSE ilv.LineNetAmt END"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="LineNetAmt"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 12:44:46.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:28:13.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002105"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.LineTotalAmt"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="LineTotalAmt"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:44:24.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:28:22.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002106"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.Lot"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Lot"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:44:20.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:28:39.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002107"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.M_AttributeSetInstance_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="M_AttributeSetInstance_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:44:16.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:28:52.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002108"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.M_AttributeSet_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="M_AttributeSet_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:44:12.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:29:02.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002109"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.M_Lot_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="M_Lot_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:44:08.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:29:13.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002110"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.M_Product_ID"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="M_Product_ID"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:44:04.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:29:24.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002111"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.Name"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Name"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:44:01.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:34:18.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002112"/>
+<ColumnSQL AD_Reference_ID="14" Value="CASE WHEN ilv.C_InvoiceLine_ID IS NULL THEN NULL ELSE ilv.PriceActual END"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="PriceActual"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 12:43:57.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:34:30.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002113"/>
+<ColumnSQL AD_Reference_ID="14" Value="CASE WHEN ilv.C_InvoiceLine_ID IS NULL THEN NULL ELSE ilv.PriceEntered END"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="PriceEntered"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 12:43:44.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:34:39.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002114"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.PriceEnteredList"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="PriceEnteredList"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:43:22.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:34:49.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002115"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.PriceList"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="PriceList"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:43:18.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:34:58.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002116"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.ProductDescription"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="ProductDescription"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:43:14.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:35:09.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002117"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.ProductValue"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="ProductValue"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:43:10.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:35:19.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002118"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.QtyEntered"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="QtyEntered"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:43:06.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:35:30.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002119"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.QtyInvoiced"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="QtyInvoiced"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:43:01.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:35:39.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002120"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.ResourceDescription"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="ResourceDescription"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:42:56.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:35:48.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002121"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.SKU"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="SKU"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:42:53.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:35:57.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002122"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.SerNo"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="SerNo"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:42:48.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:36:06.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002123"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.TaxAmt"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="TaxAmt"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:42:44.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:36:15.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002124"/>
+<ColumnSQL AD_Reference_ID="14" Value="NULL"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="TaxIndicator"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 13:19:09.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:36:26.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002125"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.UOMSymbol"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="UOMSymbol"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:42:35.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:36:34.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002126"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.UPC"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="UPC"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:41:18.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:36:42.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002127"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.Updated"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Updated"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:41:14.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:36:50.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002128"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.UpdatedBy"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="UpdatedBy"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000072"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:41:10.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:37:00.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002059"/>
+<ColumnSQL AD_Reference_ID="14" Value="CASE WHEN ilv.C_InvoiceLine_ID IS NULL THEN NULL ELSE ilv.LineNetAmt END"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="LineNetAmt"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 12:52:20.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:42:55.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewColumn>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<AD_ViewColumn_ID AD_Reference_ID="13" Value="1002052"/>
+<ColumnSQL AD_Reference_ID="14" Value="ilv.Description"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<ColumnName AD_Reference_ID="10" Value="Description"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="19" Value="1000071"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 14:29:59.0"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:42:15.0"/>
+<DBDataType AD_Reference_ID="17" Value=""/>
+</AD_ViewColumn>
+<AD_ViewComponent>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<WhereClause AD_Reference_ID="14" Value=""/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<Referenced_Table_ID AD_Reference_ID="18" Value="495"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<FromClause AD_Reference_ID="14" Value="FROM C_Invoice_LineTax_v ilv"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<OtherClause AD_Reference_ID="14" Value=""/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="13" Value="1000071"/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000080"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 09:40:44.0"/>
+<SeqNo AD_Reference_ID="11" Value="10"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 09:34:48.0"/>
+<Name AD_Reference_ID="10" Value="VC_ICIC_Invoice_Line_v"/>
+</AD_ViewComponent>
+<AD_ViewComponent>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<WhereClause AD_Reference_ID="14" Value=""/>
+<EntityType AD_Reference_ID="18" Value="ICIC"/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="100"/>
+<Referenced_Table_ID AD_Reference_ID="18" Value="952"/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<FromClause AD_Reference_ID="14" Value="FROM C_Invoice_LineTax_vt ilv"/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<OtherClause AD_Reference_ID="14" Value=""/>
+<Description AD_Reference_ID="10" Value=""/>
+<AD_ViewComponent_ID AD_Reference_ID="13" Value="1000072"/>
+<AD_Table_ID AD_Reference_ID="19" Value="1000081"/>
+<CreatedBy AD_Reference_ID="18" Value="100"/>
+<Updated AD_Reference_ID="16" Value="2009-10-15 10:22:48.0"/>
+<SeqNo AD_Reference_ID="11" Value="10"/>
+<Created AD_Reference_ID="16" Value="2009-10-15 10:22:48.0"/>
+<Name AD_Reference_ID="10" Value="VC_ICIC_Invoice_Line_vt"/>
+</AD_ViewComponent>
+<AD_EntityType>
+<ModelValidationClasses AD_Reference_ID="10" Value=""/>
+<Summary AD_Reference_ID="10" Value=""/>
+<IsActive AD_Reference_ID="20" Value="Y"/>
+<BinaryData AD_Reference_ID="23" Value=""/>
+<LicenseText AD_Reference_ID="36" Value=""/>
+<RelativeLoadNo AD_Reference_ID="11" Value=""/>
+<Help AD_Reference_ID="14" Value=""/>
+<UpdatedBy AD_Reference_ID="18" Value="0"/>
+<CreateComponent AD_Reference_ID="28" Value=""/>
+<RequireCompiereVersion AD_Reference_ID="10" Value=""/>
+<DocumentationText AD_Reference_ID="36" Value=""/>
+<AD_Org_ID AD_Reference_ID="19" Value="0"/>
+<AD_EntityType_ID AD_Reference_ID="13" Value="0"/>
+<Description AD_Reference_ID="10" Value=""/>
+<Version AD_Reference_ID="10" Value=""/>
+<CreatedBy AD_Reference_ID="18" Value="0"/>
+<Updated AD_Reference_ID="16" Value="2009-10-12 14:57:29.0"/>
+<Name AD_Reference_ID="10" Value="ICTU Invoiceline Customization"/>
+<IsRegistered AD_Reference_ID="20" Value=""/>
+<RequireComponentVersion AD_Reference_ID="10" Value=""/>
+<EntityType AD_Reference_ID="10" Value="ICIC"/>
+<Record_ID AD_Reference_ID="13" Value=""/>
+<Classpath AD_Reference_ID="10" Value=""/>
+<ModelPackage AD_Reference_ID="10" Value=""/>
+<AD_Client_ID AD_Reference_ID="19" Value="0"/>
+<Processing AD_Reference_ID="28" Value="N"/>
+<Created AD_Reference_ID="16" Value="2009-10-12 14:57:29.0"/>
+</AD_EntityType>
+</CompiereApplicationModule>

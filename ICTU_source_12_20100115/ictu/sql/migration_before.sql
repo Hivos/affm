@@ -1,0 +1,19 @@
+DELETE
+FROM T_TrialBalance;
+
+DELETE
+FROM AFGO_T_RevenueExpense;
+
+DELETE
+FROM AD_PInstance;
+
+DELETE
+FROM AD_WF_EventAudit;
+
+DELETE
+FROM AD_WF_NodeNext
+WHERE EntityType IN ('AFGO', 'ICTU');
+
+DELETE
+FROM AD_WF_Node
+WHERE EntityType IN ('AFGO', 'ICTU');

@@ -1,0 +1,81 @@
+### Eclipse Workspace Patch 1.0
+#P afgo
+Index: src/model/org/compiere/grid/ed/VDocAction.java
+===================================================================
+RCS file: /usr/local/cvsroot/afgo/src/model/org/compiere/grid/ed/VDocAction.java,v
+retrieving revision 1.7
+diff -u -r1.7 VDocAction.java
+--- src/model/org/compiere/grid/ed/VDocAction.java	29 Jan 2009 09:06:16 -0000	1.7
++++ src/model/org/compiere/grid/ed/VDocAction.java	29 Jan 2009 09:14:03 -0000
+@@ -29,8 +29,14 @@
+ import org.compiere.plaf.*;
+ import org.compiere.swing.*;
+ import org.compiere.util.*;
++import org.compiere.vos.DocActionConstants;
+ import org.compiere.wf.*;
+ 
++import com.afgo.model.MAFGOBudget;
++import com.afgo.model.MAFGOFundSchedule;
++import com.afgo.model.MAFGOQuotationRequest;
++import com.afgo.model.MAFGOQuotationResponse;
++
+ /**
+  *	Displays valid Document Action Options based on context
+  *
+@@ -456,6 +462,56 @@
+ 				options[index++] = org.compiere.vos.DocActionConstants.ACTION_Reverse_Correct;
+ 			}
+ 		}
++		
++		// ActFact GO Documents
++		
++		/**
++		 * Fund Schedule
++		 */
++		else if (m_AD_Table_ID == MAFGOFundSchedule.Table_ID)
++		{
++			if (DocStatus.equals(DocActionConstants.STATUS_Completed))
++			{
++				options[index++] = DocActionConstants.ACTION_Void;
++				options[index++] = DocActionConstants.ACTION_Reverse_Correct;
++			}
++		}
++		
++		/**
++		 * Budget
++		 */
++		else if (m_AD_Table_ID == MAFGOBudget.Table_ID)
++		{
++			if (DocStatus.equals(DocActionConstants.STATUS_Completed))
++			{
++				options[index++] = DocActionConstants.ACTION_Void;
++				options[index++] = DocActionConstants.ACTION_Reverse_Correct;
++			}
++		}
++		
++		/**
++		 * Quote Invitation
++		 */
++		else if (m_AD_Table_ID == MAFGOQuotationRequest.Table_ID)
++		{
++			if (DocStatus.equals(DocActionConstants.STATUS_Completed))
++			{
++				options[index++] = DocActionConstants.ACTION_Void;
++			}
++		}
++		
++		/**
++		 * Quote Response
++		 */
++		else if (m_AD_Table_ID == MAFGOQuotationResponse.Table_ID)
++		{
++			if (DocStatus.equals(DocActionConstants.STATUS_Completed))
++			{
++				options[index++] = DocActionConstants.ACTION_Void;
++			}
++		}
++		
++		// ActFact GO Documents
+ 
+ 
+ 		/**
